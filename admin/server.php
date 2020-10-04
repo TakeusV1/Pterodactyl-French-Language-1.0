@@ -27,5 +27,8 @@ return [
         'details_updated' => 'Les détails du serveur ont été mis à jour avec succès.',
         'docker_image_updated' => 'Modification réussie de l\'image Docker par défaut à utiliser pour ce serveur. Un redémarrage est nécessaire pour appliquer cette modification.',
         'node_required' => 'Vous devez avoir configuré au moins un noeud (node) avant de pouvoir ajouter un serveur à ce panel.',
+        'transfer_nodes_required' => 'Vous devez avoir configuré au moins deux nœuds avant de pouvoir transférer des serveurs.',
+        'transfer_started' => 'Le transfert du serveur a été lancé.',
+        'transfer_not_viable' => 'Le nœud que vous avez sélectionné n\'est pas viable pour ce transfert.',
     ],
 ];
