@@ -42,6 +42,10 @@ return [
     ],
     'server' => [
         'rebuild_failed' => 'Requête de Rebuild ":name" (#:id) sur le noeud ":node" échoué avec l\'erreur: :message',
+        'reinstall' => [
+            'failed' => 'La demande de réinstallation de ":name" (#:id) du node ":node" a échoué avec l\'erreur: :message',
+            'confirm' => 'Vous êtes sur le point de réinstaller votre serveur',
+        ],
         'power' => [
             'confirm' => 'Vous êtes sur le point d\'effectuer l\'action :action sur :count serveurs. Souhaitez-vous continuer?',
             'action_failed' => 'Demande d\'action d\'alimentation pour ":name" (#:id) sur le noeud ":node" échoué avec l\'erreur: :message',
